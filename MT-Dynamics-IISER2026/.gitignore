@@ -1,0 +1,106 @@
+__pycache__/
+*.py[cod]
+*$py.class
+\n# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+\n# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+\n# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+\n# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+\n# Translations
+*.mo
+*.pot
+\n# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+\n# Flask stuff:
+instance/
+.webassets-cache
+\n# Scrapy stuff:
+.scrapy
+\n# Sphinx documentation
+docs/_build/
+\n# PyBuilder
+target/
+\n# Jupyter Notebook
+.ipynb_checkpoints
+\n# IPython
+profile_default/
+ipython_config.py
+\n# pyenv
+.python-version
+\n# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+\n# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+\n# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+\n# SageMath parsed files
+*.sage.py
+\n# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+\n# Spyder project settings
+.spyderproject
+.spyproject
+\n# Rope project settings
+.ropeproject
+\n# mkdocs documentation
+/site
+\n# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+\n# Pyre type checker
+.pyre/
+\n# pytype static type analyzer
+.pytype/
+\n# Cython debug symbols
+cython_debug/
