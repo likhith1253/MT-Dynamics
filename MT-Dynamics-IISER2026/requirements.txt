@@ -1,10 +1,7 @@
 numpy
-pandas
-matplotlib
-opencv-python
-torch
-torchvision
-streamlit
-scikit-image
-scikit-learn
 scipy
+matplotlib
+scikit-image
+opencv-python
+pandas
+datasets
