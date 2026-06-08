@@ -24,9 +24,6 @@ Our pipeline offers flexibility via two robust pathways:
 1. **Classical Pipeline:** Utilizes Frangi vesselness filtering enhanced by CLAHE (Contrast Limited Adaptive Histogram Equalization) and morphology algorithms to extract binary skeletonized representations of microtubules.
 2. **Deep Learning Pipeline:** Implements a U-Net model, fine-tuned on dynamically generated pseudo-labels from the classical pipeline, providing superior robustness against varying noise profiles and imaging artifacts.
 
-![Microtubule Input/Output Pair](docs/images/sample_input_output.png)
-*Left: Raw fluorescence frame. Right: Extracted tracking mask.*
-
 ## Quick Start
 To process a video and extract dynamic metrics:
 ```bash
@@ -75,9 +72,3 @@ python src/evaluate_unet.py
 - Accelerated pharmaceutical drug screening targeting microtubule stability.
 - Educational visualization of cell division mechanisms.
 - Automated quality control for synthetic filament synthesis.
-
-## Contact
-
-**[Your Name]**  
-*Technical Documentation Engineer / ML Developer*  
-[Your LinkedIn/Portfolio Link] | [Your Email]
